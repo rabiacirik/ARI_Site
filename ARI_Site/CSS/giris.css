@@ -1,0 +1,18 @@
+
+        body { background-color: #fff8dc; font-family: 'Segoe UI', sans-serif; }
+        .bee-box {
+            max-width: 450px; margin: 60px auto; padding: 30px;
+            border: 2px solid #d4af37; border-radius: 20px;
+            background-color: #fff; box-shadow: 0 4px 12px rgba(212,175,55,0.4);
+        }
+        .btn-bee {
+            background-color: #d4af37; color: #1a1a1a; font-weight: 600;
+        }
+        .btn-bee:hover {
+            background-color: #b8860b; color: white;
+        }
+        h2 { color: #d4af37; text-align: center; font-weight: 700; }
+        .form-label { font-weight: 600; color: #333; }
+        .nav-tabs .nav-link.active { background-color: #d4af37; color: #fff; }
+        .nav-tabs .nav-link { font-weight: 600; color: #333; }
+    

@@ -1,0 +1,79 @@
+
+        body {
+            background: #fff8dc;
+            color: #333;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        h1 {
+            color: #d4af37;
+            text-align: center;
+            margin-bottom: 40px;
+            font-weight: 700;
+            text-shadow: 1px 1px 3px #b8860b;
+        }
+        .card {
+            border: 2px solid #d4af37;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(212,175,55,0.4);
+            position: relative;
+        }
+        .card-title {
+            color: #b8860b;
+            font-weight: 600;
+        }
+        .btn-bee {
+            background-color: #d4af37;
+            color: #1a1a1a;
+            font-weight: 600;
+            border: none;
+            transition: background-color 0.3s ease;
+        }
+        .btn-bee:hover {
+            background-color: #b8860b;
+            color: #fff;
+        }
+        .accordion-button {
+            background-color: #d4af37;
+            color: #1a1a1a;
+            font-weight: 600;
+        }
+        .accordion-button:not(.collapsed) {
+            background-color: #b8860b;
+            color: white;
+            box-shadow: none;
+        }
+        .accordion-body {
+            background-color: #fff8dc;
+            color: #333;
+        }
+        .kitap-resim {
+            max-width: 120px;
+            max-height: 160px;
+            object-fit: contain;
+            border-radius: 8px;
+            box-shadow: 0 0 5px #d4af37;
+            margin-bottom: 15px;
+        }
+        .navbar-nav .nav-link {
+            color: #1a1a1a !important;
+            font-weight: 600;
+        }
+        .navbar-nav .nav-link:hover {
+            color: #fff !important;
+        }
+        /* Kalp stili */
+        .fav-heart {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            font-size: 28px;
+            cursor: pointer;
+            color: #bbb;
+            transition: color 0.3s ease;
+            user-select: none;
+            z-index: 10;
+        }
+        .fav-heart.favorited {
+            color: #e63946;
+        }
+    

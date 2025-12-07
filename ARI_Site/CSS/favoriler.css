@@ -1,0 +1,112 @@
+body {
+    background: linear-gradient(135deg, #fff8dc 25%, #f5deb3 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #3b2f0b;
+    min-height: 100vh;
+    width: 100%;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="60" height="52" viewBox="0 0 60 52"><path fill="%23d4af37" fill-opacity="0.1" d="M30 0l15 26-15 26-15-26z"/></svg>');
+    background-repeat: repeat;
+    opacity: 0.15;
+    z-index: -1;
+}
+
+h1 {
+    color: #d4af37;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px #b8860b;
+}
+
+.btn-warning {
+    background-color: #d4af37;
+    border: none;
+    font-weight: 600;
+    color: #1a1a1a;
+    box-shadow: 0 2px 5px rgba(212,175,55,0.5);
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+.btn-warning:hover {
+    background-color: #b8860b;
+    color: #fff;
+}
+
+.btn-danger {
+    background-color: #d9534f;
+    border: none;
+    font-weight: 600;
+    color: #fff;
+    box-shadow: 0 2px 5px rgba(217,83,79,0.6);
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+.btn-danger:hover {
+    background-color: #c9302c;
+}
+
+.card {
+    border: 2px solid #d4af37;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(212,175,55,0.4);
+    background-color: #fffbea;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    transition: transform 0.2s ease-in-out;
+    width: 100%;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(212,175,55,0.6);
+}
+
+.card img {
+    border-radius: 10px;
+    box-shadow: 0 0 10px #d4af37;
+    max-height: 240px;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 15px;
+    background-color: #fff;
+}
+
+.kategori-badge {
+    background-color: #b8860b;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 12px;
+    font-size: 0.85rem;
+    user-select: none;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.alert-success {
+    max-width: 600px;
+    margin: 10px auto 25px auto;
+    border-radius: 12px;
+    box-shadow: 0 3px 8px rgba(212,175,55,0.4);
+    font-weight: 600;
+}
+
+/* Responsive grid spacing */
+@media (max-width: 576px) {
+    .card {
+        margin-bottom: 25px;
+    }
+}
